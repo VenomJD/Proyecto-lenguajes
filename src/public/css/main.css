@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url(/img/bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}
+
+.main-container{
+  width: 600px;
+  height: 400px;
+  background-color: #343a40;
+  margin-top: 70px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.title{
+  text-align: center;
+}
+
+form{
+  display:flex;
+  flex-direction: column;
+ 
+}
+
+input{
+  margin: 10px 0;
+    padding:5px;
+    border-radius: 10px;
+    border: none;
+}
+
+button{
+  margin-top: 30px;
+}

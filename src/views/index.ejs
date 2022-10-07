@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Calculador de Divisas</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <%- include('partials/head')%>
+   </head>
+   <body>
+      <%- include('partials/navigation')%>
+      <div class="container main-container">
+
+        <form class="form-horizontal form-inline">
+          <legend class="title">CONVERSOR</legend>
+          <label for="number" class="control">Ingrese la cantidad en USD</label>
+          <input type="number" class="form-control"name="M-1" id="number" value="" placeholder="0">
+          <label for="txt" class="control">Moneda a Convertir</label>
+          <input type="text" class="form-control" name="M-2" id="txt" value="" placeholder="EUR-YEN">
+          <button type="submit" class="btn btn-primary success"  id="btn" >ENVIAR</button>
+        </form>
+        <div id="info" style="text-align:center; padding:20px;">
+
+        </div>
+      </div>
+      <script src="/js/api.js"></script>
+    </body>
+ </html>
