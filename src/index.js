@@ -15,5 +15,5 @@ app.set('views', join(__dirname, 'views'));
 app.set('view engine','ejs');
 app.use(RutasJS);
 app.use(express.static(join(__dirname, 'public')))
-app.listen(process.env.port || port);
-console.log(process.env.port || port)
+app.listen(process.env.PORT || port);
+console.log(process.env.PORT || port)
